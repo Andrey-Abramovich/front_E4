@@ -33,10 +33,10 @@ class ElectricalAppliance extends Device {
     }
 }
 
-const noutbook = new ElectricalAppliance();
+const notebook = new ElectricalAppliance();
 
-noutbook.name = 'Acer';
-noutbook.getPower(60, true);
+notebook.name = 'Acer';
+notebook.getPower(60, true);
 
 const lamp = new ElectricalAppliance();
 
